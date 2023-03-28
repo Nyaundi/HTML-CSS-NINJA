@@ -115,12 +115,22 @@ form input{
     padding: 10px 20px;
     font-size: 24px;
     border-radius: 28px;
-    border: 4px solid yellow;
+    border: 4px solid white;
 }
 footer{
     background: red;
     color: black;
     padding: 10px;
     text-align: center;
-
 }
+/* Pseudo classes */
+nav li a:hover{
+    text-decoration: underline;
+    background-color: #feb614;
+    padding: 3px;
+}
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+form input
